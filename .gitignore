@@ -1,0 +1,21 @@
+# Raw data (too large for GitHub)
+data/
+
+# Slides and papers
+*.pptx
+*.pdf
+
+# Reference material: only the two reference notebooks are published
+reference_material/*
+!reference_material/*.ipynb
+
+# Trained models and raw embeddings (kept locally, not published)
+results/*/models/
+results/*/oof_latent.npy
+
+# Python / Jupyter / OS clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,24 @@
+{
+  "name": "Direct fusion | 4 omics | 64-D",
+  "omics": [
+    "mRNA",
+    "Methy",
+    "CNV",
+    "miRNA"
+  ],
+  "latent_dim": 64,
+  "fusion": "direct",
+  "hidden": 256,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "p1_epochs": 50,
+  "p2_epochs": 150,
+  "min_epochs": 30,
+  "patience": 20,
+  "ce_weight": 2.0,
+  "mmd_weight": 1.0,
+  "seed": 42,
+  "n_folds": 5
+}

@@ -1,0 +1,4 @@
+,accuracy,f1_macro,nmi,ari
+Reference: 3 omics + central VAE,0.9667,0.9427,0.961,0.9511
+Reference: 4 omics direct fusion,0.9725,0.964,0.9677,0.9581
+This notebook: 4 omics direct fusion,0.9738998359567944,0.9625712881209969,0.9675077007661068,0.9600087284246903
